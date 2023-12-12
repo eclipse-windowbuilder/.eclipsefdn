@@ -1,11 +1,11 @@
-site_name: Otterdog configuration @ {{ org }}
-site_description: Otterdog configuration @ {{ org }}
+site_name: Otterdog configuration @ eclipse-windowbuilder
+site_description: Otterdog configuration @ eclipse-windowbuilder
 strict: false
 
-site_url: https://{{ org }}.github.io/.eclipsefdn/
+site_url: https://eclipse-windowbuilder.github.io/.eclipsefdn/
 
-repo_name: {{ org }}/.eclipsefdn
-repo_url: https://github.com/{{ org }}/.eclipsefdn/
+repo_name: eclipse-windowbuilder/.eclipsefdn
+repo_url: https://github.com/eclipse-windowbuilder/.eclipsefdn/
 
 docs_dir: ./docs
 site_dir: ./_site
