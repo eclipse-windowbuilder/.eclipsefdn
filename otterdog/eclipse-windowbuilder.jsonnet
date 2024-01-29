@@ -59,7 +59,7 @@ orgs.newOrg('eclipse-windowbuilder') {
     orgs.newRepo('windowbuilder') {
       allow_merge_commit: true,
       default_branch: "master",
-      delete_branch_on_merge: false,
+      delete_branch_on_merge: true,
       dependabot_security_updates_enabled: true,
       description: "Eclipse Windowbuilder",
       has_discussions: true,
@@ -75,7 +75,7 @@ orgs.newOrg('eclipse-windowbuilder') {
       allow_merge_commit: true,
       allow_update_branch: false,
       default_branch: "master",
-      delete_branch_on_merge: false,
+      delete_branch_on_merge: true,
       secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
