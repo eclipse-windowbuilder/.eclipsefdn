@@ -2,4 +2,4 @@
 *             @eclipse-windowbuilder/eclipsefdn-releng
 
 # Otterdog related configurations are also owned by the security team.
-/otterdog/**  @eclipse-windowbuilder/eclipsefdn-security @eclipse-windowbuilder/eclipsefdn-releng
+/otterdog/**  @eclipse-windowbuilder/eclipsefdn-security
