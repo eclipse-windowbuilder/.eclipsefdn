@@ -7,7 +7,6 @@ orgs.newOrg('eclipse-windowbuilder') {
     description: "A powerful, easy-to-use, bi-directional Java GUI designer.",
     email: "wb-dev@eclipse.org",
     name: "Eclipse WindowBuilder™",
-    readers_can_create_discussions: true,
     web_commit_signoff_required: false,
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
