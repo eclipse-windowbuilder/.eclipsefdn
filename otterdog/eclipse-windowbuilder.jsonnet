@@ -45,7 +45,6 @@ orgs.newOrg('eclipse-windowbuilder') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -59,7 +58,6 @@ orgs.newOrg('eclipse-windowbuilder') {
       description: "Eclipse Windowbuilder",
       has_discussions: true,
       homepage: "https://projects.eclipse.org/projects/tools.windowbuilder",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -70,7 +68,6 @@ orgs.newOrg('eclipse-windowbuilder') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         enabled: false,
@@ -81,7 +78,6 @@ orgs.newOrg('eclipse-windowbuilder') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         enabled: false,
