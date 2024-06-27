@@ -3,7 +3,6 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 orgs.newOrg('eclipse-windowbuilder') {
   settings+: {
     blog: "https://www.eclipse.org/windowbuilder/",
-    dependabot_security_updates_enabled_for_new_repositories: false,
     description: "A powerful, easy-to-use, bi-directional Java GUI designer.",
     email: "wb-dev@eclipse.org",
     name: "Eclipse WindowBuilder™",
