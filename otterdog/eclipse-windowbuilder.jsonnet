@@ -82,5 +82,15 @@ orgs.newOrg('eclipse-windowbuilder') {
         enabled: false,
       },
     },
+    orgs.newRepo('windowbuilder-images') {
+      allow_merge_commit: true,
+      default_branch: "master",
+      delete_branch_on_merge: false,
+      description: "Eclipse Windowbuilder SVG Images and Icons",
+      web_commit_signoff_required: false,
+      workflows+: {
+        enabled: false,
+      },
+    },
   ],
 }
