@@ -32,9 +32,6 @@ orgs.newOrg('eclipse-windowbuilder') {
   ],
   secrets+: [
     orgs.newOrgSecret('GITLAB_API_TOKEN') {
-      selected_repositories+: [
-        "windowbuilder"
-      ],
       value: "********",
     },
   ],
