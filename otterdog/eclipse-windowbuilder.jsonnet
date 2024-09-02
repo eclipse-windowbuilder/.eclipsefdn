@@ -36,7 +36,6 @@ orgs.newOrg('eclipse-windowbuilder') {
         "windowbuilder"
       ],
       value: "********",
-      visibility: "selected",
     },
   ],
   _repositories+:: [
