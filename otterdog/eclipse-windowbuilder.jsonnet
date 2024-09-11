@@ -32,7 +32,7 @@ orgs.newOrg('eclipse-windowbuilder') {
   ],
   secrets+: [
     orgs.newOrgSecret('GITLAB_API_TOKEN') {
-      value: "********",
+      value: "pass:bots/tools.windowbuilder/gitlab.eclipse.org/api-token",
     },
   ],
   _repositories+:: [
