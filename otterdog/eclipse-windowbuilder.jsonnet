@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-windowbuilder') {
+orgs.newOrg('tools.windowbuilder', 'eclipse-windowbuilder') {
   settings+: {
     blog: "https://www.eclipse.org/windowbuilder/",
     description: "A powerful, easy-to-use, bi-directional Java GUI designer.",
